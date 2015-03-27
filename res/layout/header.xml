@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip" >
+    
+    <TextView android:id="@+id/text"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff000000"
+        android:text="@string/pull_to_refresh"
+        android:textSize="12sp"/>
+
+    <!-- style="?android:attr/progressBarStyleSmallInverse" -->
+    <!-- <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleSmallInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/text"
+        android:layout_marginRight="15dp"
+        android:visibility="gone"/> -->
+    
+    <com.mrfu.blurview.pulltorefresh.ProgressBarCircularIndeterminate
+        android:id="@+id/progress"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/text"
+        android:background="#ff19b1ff"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/pull_to_refresh_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/text"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_pulltorefresh_arrow" />
+
+</RelativeLayout>

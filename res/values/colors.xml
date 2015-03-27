@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff000000</color>
+    
+    
+    <drawable name="imageview_bg">#ffffffff</drawable>
+</resources>
