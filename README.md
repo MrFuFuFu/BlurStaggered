@@ -5,6 +5,15 @@ My Blog--[MrFu-傅圆的个人博客](http://mrfufufu.github.io/)
 
 Rarely updated blog, but I will post more project to github, I will try to blog much more, although my poor literary talent, but also how good the technology is not necessarily
 
+## 能学到的技能点
+
+* 高斯模糊(Blur)
+* 瀑布流(StaggeredGridView)
+* 基于瀑布流的下拉刷新(PullRefreshStaggeredListView)
+* 图片缓存(二级缓存:LruMemoryCache 和 File)
+* 图片加载(ImageLoader, ImageBlurLoader):线程池实现而非AsyncTask
+* 通过MD5加密保存文件
+
 ## 描述
 
 瀑布流，高斯模糊，下拉刷新上拉加载，图片异步加载，高斯模糊异步处理，点击item即可显示原来的图片。坚决不卡 UI，坚决异步，多线程处理，图片缓存到 LruMemoryCache，同时使用 MD5 加密写到 SD卡中，最最关键的是：没有OOM！！！！！上线已半年之久，从来木有OOM过！！！
