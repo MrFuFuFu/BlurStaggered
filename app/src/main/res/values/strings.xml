@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BlurStaggered</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">GitHub</string>
+
+
+
+    <string name="pull_to_refresh">pull to refresh</string>
+    <string name="release_to_refresh">release to refresh</string>
+    <string name="refreshing">refreshing,waiting...</string>
+    <string name="nomore">no more</string>
+    <string name="unlock_success">unlock success</string>
+    <string name="unlock">You did not unlock the picture</string>
+    <string name="confirm">confirm</string>
+    <string name="tips">tips</string>
+    <string name="need_unlock">Are unlock the picture</string>
+</resources>

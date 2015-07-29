@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/releat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff7f7f7"
+    android:padding="4dp" >
+
+    <mrfu.blurstaggered.lib.util.ImageViewEx
+        android:id="@+id/item_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="1dp"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/relate_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/lock_w" />
+
+        <TextView
+            android:id="@+id/tv_morering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_lock"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:shadowColor="#7f000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="@string/unlock"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_1"
+        android:background="@color/white"
+        android:padding="6dp"
+        android:textColor="#818181"
+        android:textSize="13sp"
+        android:visibility="visible" />
+
+</RelativeLayout>
