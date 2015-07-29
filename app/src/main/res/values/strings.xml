@@ -13,6 +13,6 @@
     <string name="unlock_success">unlock success</string>
     <string name="unlock">You did not unlock the picture</string>
     <string name="confirm">confirm</string>
-    <string name="tips">tips</string>
+    <string name="tips">tips</string> 
     <string name="need_unlock">Are unlock the picture</string>
 </resources>

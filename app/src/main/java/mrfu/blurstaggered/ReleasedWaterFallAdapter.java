@@ -231,7 +231,7 @@ public class ReleasedWaterFallAdapter extends BaseAdapter implements OnClickList
 		switch (v.getId()) {
 		case R.id.releat:
 			//Nothing to do here , but be sure to write the code in here , otherwise there will be displacement cascade problem
-			//这里什么也不要做，但是代码一定要写在这里，不然瀑布流会有很蛋碎的位移问题 
+			//这里什么也不要做，但是代码一定要写在这里，不然瀑布流会有很蛋碎的位移问题
 			break;
 		default:
 			break;
