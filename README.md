@@ -3,16 +3,14 @@ BlurStaggered 高斯模糊下拉刷新瀑布流
 
 My Blog--[MrFu-傅圆的个人博客](http://mrfufufu.github.io/)
 
-Rarely updated blog, but I will post more project to github, I will try to blog much more, although my poor literary talent, but also how good the technology is not necessarily
-
 ## 能学到的技能点
 
 * 高斯模糊(Blur)
 * 瀑布流(StaggeredGridView) 
 * 基于瀑布流的下拉刷新(PullRefreshStaggeredListView)
-* 图片缓存(二级缓存:LruMemoryCache 和 File)
+* 图片缓存(二级缓存:LruMemoryCache 和 FileStore)
 * 图片加载(ImageLoader, ImageBlurLoader):线程池实现而非AsyncTask
-* 通过MD5加密保存文件 
+* 通过MD5加密保存图片文件
 
 ## 描述
 
