@@ -5,9 +5,9 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
         <!-- Material Design setup-->
-        <item name="colorPrimary">@color/theme_color_primary</item>
-        <item name="colorPrimaryDark">@color/theme_color_primary_dark</item>
-        <item name="android:textColorPrimary">@color/theme_text_color_primary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textColorPrimary">@color/icons</item>
         <item name="android:windowBackground">@color/white</item>
     </style>
 
