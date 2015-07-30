@@ -2,6 +2,7 @@ package mrfu.blurstaggered;
 
 import android.os.AsyncTask;
 import android.os.Build;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -82,6 +83,16 @@ public class TestData {
 		"http://i.qichuang.com/01150210ac0c18158e19454cacc9cd418c33d215.png@99q_1c_1e_250h_250w.png",
 	};
 
+	private static String getRandomData(){
+		int length = (int)(Math.random() * 20);
+		String randomData = "";
+		for (int i=0; i< length; i ++){
+			randomData +="正";
+		}
+		Log.i("MrFu", "length = " + length + " randomData = " + randomData);
+		return randomData;
+	}
+
 	public static List<DataModel> getPullDownDataModels(){
 		List<DataModel> list = new ArrayList<DataModel>();
 		for (int i = 0; i < 30; i++) {
@@ -89,6 +100,7 @@ public class TestData {
 			model.setId(String.valueOf(i));
 			model.setIsLocked("YES");
 			model.setImageUrl(urls[i]);
+			model.setComment(getRandomData());
 			list.add(model);
 		}
 		return list;
@@ -101,6 +113,7 @@ public class TestData {
 			model.setId(String.valueOf(i));
 			model.setIsLocked("YES");
 			model.setImageUrl(urls[i]);
+			model.setComment(getRandomData());
 			list.add(model);
 		}
 		return list;
