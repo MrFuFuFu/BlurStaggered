@@ -44,13 +44,12 @@ public class MainActivity extends Activity implements PullRefreshStaggeredListen
     private void initTitleBar() {
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         toolbar.setTitle("Blur Staggered GridView");
-        toolbar.setSubtitle("MrFu");
-        toolbar.setLogo(R.mipmap.ic_launcher);
+        toolbar.setLogo(R.mipmap.logo);
         toolbar.inflateMenu(R.menu.menu_main);
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
                @Override
                public boolean onMenuItemClick(MenuItem item) {
-                   Uri uri = Uri.parse("https://github.com/MrFuFuFu");
+                   Uri uri = Uri.parse("https://github.com/MrFuFuFu/BlurStaggered");
                    Intent i = new Intent(Intent.ACTION_VIEW, uri);
                    i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                    startActivity(i);
